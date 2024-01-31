@@ -1,0 +1,7 @@
+ while True:
+            self.mostrar_palabra()
+            letra = self.obtener_letra()
+
+            if letra in self.letras_adivinadas:
+                print("Ya has adivinado esa letra. ¡Intenta con otra!")
+                continue
